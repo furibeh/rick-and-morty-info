@@ -106,7 +106,13 @@ export default function CharacterPage() {
         {descriptionQuery.isLoading && <Spinner />}
 
         {descriptionQuery.data && (
-          <p className="text-2xl px-16">{descriptionQuery.data.response}</p>
+          <div className="mt my-3 backdrop-blur-sm bg-white/5 rounded-xl py-5">
+            <p className="max-w-6xl mx-auto px-6 md:px-4 text-lg text-white leading-relaxed text-center">
+              {descriptionQuery.data.response}
+            </p>
+          </div>
+
+
         )}
 
         <Link to={{pathname: "/"}}><button className="px-6 py-3 bg-green-500 text-black font-semibold rounded-xl hover:bg-green-400 hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg shadow-green-500/40 cursor-pointer">BACK TO MAIN PAGE</button></Link>

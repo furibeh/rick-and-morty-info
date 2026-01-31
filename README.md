@@ -42,3 +42,13 @@ https://ollama.com
 ```bash
 ollama pull gemma3:1b
 ```
+
+## Visualizacion del proyecto 
+
+# Pagina principal:
+
+![alt text](MainPageScreenshoot.png)
+
+# Descripcion de personajes generada con IA: 
+
+![alt text](CharacterDescription.png)
