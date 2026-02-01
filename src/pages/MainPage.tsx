@@ -18,9 +18,10 @@ export default function MainPage() {
 				>
 					Rick and Morty Info 💀
 				</FuzzyText>
-				<p className='text-xl'>Welcome to this page, where you can find anything about the characters of Rick and Morty's series</p>
+				<p className='text-xl font-bold text-shadow-md text-shadow-lime-300'>Welcome to this page, where you can find anything about the characters of Rick and Morty's series</p>
+				<p className="text-sm font-semibold text-white/60">¡Select the character you want to meet and delve into their universe!</p>
 
-				<CharacterGrid />
+				<CharacterGrid/>
 			</div>
 
 		</div>
