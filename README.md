@@ -43,12 +43,19 @@ https://ollama.com
 ollama pull gemma3:1b
 ```
 
+
 ## Visualizacion del proyecto 
 
 # Pagina principal:
 
-![alt text](MainPageScreenshoot.png)
+<p align="center">Aqui podras visualizar diferentes personajes de la serie y seleccionar al que mas desees conocer.</p>
+
+![alt text](MainPageScreen-1.png)
 
 # Descripcion de personajes generada con IA: 
+
+<p align="center">Aqui podras conocer mas a fondo sobre el personaje que elegiste 
+por medio de una breve descripción generada con un modelo local de inteligencia artificial,
+además, de conocer su estado actual en la serie y su raza.</p>
 
 ![alt text](CharacterDescription.png)
