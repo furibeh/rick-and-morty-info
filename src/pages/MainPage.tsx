@@ -2,9 +2,11 @@ import FuzzyText from "@/components/FuzzyText"
 import CharacterGrid from "@/components/CharacterGrid"
 import Background from "@/components/Background"
 import Galaxy from "@/components/Galaxy"
+import Pagination from "@/components/Pagination"
+import { useState } from "react"
+
 
 export default function MainPage() {
-
 	return (
 		<div className='w-full min-h-screen relative flex justify-center items-center'>
 			<Background>
@@ -21,6 +23,11 @@ export default function MainPage() {
 				<p className='text-xl font-bold text-shadow-md text-shadow-lime-300'>Welcome to this page, where you can find anything about the characters of Rick and Morty's series</p>
 				<p className="text-sm font-semibold text-white/60">¡Select the character you want to meet and delve into their universe!</p>
 
+				<Pagination
+					page={1}
+					totalPages={21}
+					setPage={ () => {} }
+				/>
 				<CharacterGrid/>
 			</div>
 
